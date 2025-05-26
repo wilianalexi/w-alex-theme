@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ shop.name }} - W-ALEX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+      body {
+        margin: 0;
+        font-family: 'Playfair Display', serif;
+        background-image: url({{ 'lion-background.jpg.png' | asset_url }});
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #C19C4B;
+      }
+
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.7);
+        min-height: 100vh;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        letter-spacing: 2px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        max-width: 600px;
+      }
+
+      footer {
+        margin-top: 2rem;
+        font-size: 1rem;
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay">
+      <h1>W-ALEX</h1>
+      <p>More than style — it's a symbol of power, elegance and legacy. Designed for the elite. Built to endure.</p>
+      <footer>BEYOND LIMITS · Crafted for Entrepreneurs</footer>
+    </div>
+  </body>
+</html>
