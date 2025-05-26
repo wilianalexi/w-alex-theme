@@ -1,0 +1,29 @@
+[
+  {
+    "name": "General",
+    "settings": [
+      {
+        "type": "color",
+        "id": "primary_color",
+        "label": "Color principal",
+        "default": "#C19C4B"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Color de fondo",
+        "default": "#0A0A0A"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Imagen de fondo"
+      },
+      {
+        "type": "image_picker",
+        "id": "hero_image",
+        "label": "Imagen del león"
+      }
+    ]
+  }
+]
